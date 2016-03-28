@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'hostname' => 'localhost',
-	'username' => 'postgres',
+	'hostname' => 'mysql.idhostinger.com',
+	'username' => 'u844588895_uyung',
 	'password' => '31102009',
-	'database' => 'profilsma',
-	'dbdriver' => 'postgre',
+	'database' => 'u844588895_web',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -93,3 +93,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
