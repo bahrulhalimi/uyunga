@@ -6,7 +6,6 @@ class Pulsa_model extends CI_Model {
         $this->load->database();
     }
     
-
     public function simpanBaru($input = 0){
         $db = $this->db;
         $data = array(
