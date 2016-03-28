@@ -78,7 +78,7 @@ $db['default'] = array(
 	'username' => 'u844588895_uyung',
 	'password' => '31102009',
 	'database' => 'u844588895_web',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
