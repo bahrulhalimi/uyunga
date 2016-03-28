@@ -1,5 +1,5 @@
 <?php
-class Reservasi_model extends CI_Model {
+class Pulsa_model extends CI_Model {
     private $table = 'pulsa';
     public function __construct() {
         parent::__construct();
