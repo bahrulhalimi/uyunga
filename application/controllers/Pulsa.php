@@ -30,4 +30,9 @@ class Pulsa extends CI_Controller {
 			echo json_encode($hasil);
 		}
 	}
+
+	public function pelanggan() {
+		$pelanggan = $this->pulsa_model->getPelanggan();
+		echo json_encode($pelanggan);
+	}
 }
