@@ -32,7 +32,11 @@ class Pulsa extends CI_Controller {
 	}
 
 	public function pelanggan() {
+		$semua = array();
 		$pelanggan = $this->pulsa_model->getPelanggan();
-		echo json_encode($pelanggan);
+		foreach ($pelanggan as $pel) {
+			array_push($semua,$pel->nama_pelanggan);
+		}				
+		echo json_encode($semua);
 	}
 }
